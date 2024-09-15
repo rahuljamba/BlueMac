@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kIOPSCycleCountKey</key>
+	<string>Returns the total number of charge cycles the internal battery has undergone.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>BlueMac app requires access to the camera for video capture.</string>
+</dict>
+</plist>

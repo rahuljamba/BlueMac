@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6502B4B2C8DA0E2001289C8 /* BlueMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6502B4A2C8DA0E2001289C8 /* BlueMacApp.swift */; };
+		A6502B4D2C8DA0E2001289C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6502B4C2C8DA0E2001289C8 /* ContentView.swift */; };
+		A6502B4F2C8DA0E4001289C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6502B4E2C8DA0E4001289C8 /* Assets.xcassets */; };
+		A6502B522C8DA0E4001289C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6502B512C8DA0E4001289C8 /* Preview Assets.xcassets */; };
+		A6502B5D2C8DA0E5001289C8 /* BlueMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6502B5C2C8DA0E5001289C8 /* BlueMacTests.swift */; };
+		A6502B672C8DA0E5001289C8 /* BlueMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6502B662C8DA0E5001289C8 /* BlueMacUITests.swift */; };
+		A6502B692C8DA0E5001289C8 /* BlueMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6502B682C8DA0E5001289C8 /* BlueMacUITestsLaunchTests.swift */; };
+		A6502B782C8DAD16001289C8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6502B772C8DAD16001289C8 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6502B592C8DA0E5001289C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6502B3F2C8DA0E2001289C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6502B462C8DA0E2001289C8;
+			remoteInfo = BlueMac;
+		};
+		A6502B632C8DA0E5001289C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6502B3F2C8DA0E2001289C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6502B462C8DA0E2001289C8;
+			remoteInfo = BlueMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6502B472C8DA0E2001289C8 /* BlueMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6502B4A2C8DA0E2001289C8 /* BlueMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMacApp.swift; sourceTree = "<group>"; };
+		A6502B4C2C8DA0E2001289C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6502B4E2C8DA0E4001289C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6502B512C8DA0E4001289C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6502B532C8DA0E4001289C8 /* BlueMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlueMac.entitlements; sourceTree = "<group>"; };
+		A6502B582C8DA0E5001289C8 /* BlueMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6502B5C2C8DA0E5001289C8 /* BlueMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMacTests.swift; sourceTree = "<group>"; };
+		A6502B622C8DA0E5001289C8 /* BlueMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6502B662C8DA0E5001289C8 /* BlueMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMacUITests.swift; sourceTree = "<group>"; };
+		A6502B682C8DA0E5001289C8 /* BlueMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6502B752C8DA39C001289C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6502B772C8DAD16001289C8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6502B442C8DA0E2001289C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6502B782C8DAD16001289C8 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B552C8DA0E5001289C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B5F2C8DA0E5001289C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6502B3E2C8DA0E2001289C8 = {
+			isa = PBXGroup;
+			children = (
+				A6502B492C8DA0E2001289C8 /* BlueMac */,
+				A6502B5B2C8DA0E5001289C8 /* BlueMacTests */,
+				A6502B652C8DA0E5001289C8 /* BlueMacUITests */,
+				A6502B482C8DA0E2001289C8 /* Products */,
+				A6502B762C8DAD16001289C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6502B482C8DA0E2001289C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B472C8DA0E2001289C8 /* BlueMac.app */,
+				A6502B582C8DA0E5001289C8 /* BlueMacTests.xctest */,
+				A6502B622C8DA0E5001289C8 /* BlueMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6502B492C8DA0E2001289C8 /* BlueMac */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B752C8DA39C001289C8 /* Info.plist */,
+				A6502B4A2C8DA0E2001289C8 /* BlueMacApp.swift */,
+				A6502B4C2C8DA0E2001289C8 /* ContentView.swift */,
+				A6502B4E2C8DA0E4001289C8 /* Assets.xcassets */,
+				A6502B532C8DA0E4001289C8 /* BlueMac.entitlements */,
+				A6502B502C8DA0E4001289C8 /* Preview Content */,
+			);
+			path = BlueMac;
+			sourceTree = "<group>";
+		};
+		A6502B502C8DA0E4001289C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B512C8DA0E4001289C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6502B5B2C8DA0E5001289C8 /* BlueMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B5C2C8DA0E5001289C8 /* BlueMacTests.swift */,
+			);
+			path = BlueMacTests;
+			sourceTree = "<group>";
+		};
+		A6502B652C8DA0E5001289C8 /* BlueMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B662C8DA0E5001289C8 /* BlueMacUITests.swift */,
+				A6502B682C8DA0E5001289C8 /* BlueMacUITestsLaunchTests.swift */,
+			);
+			path = BlueMacUITests;
+			sourceTree = "<group>";
+		};
+		A6502B762C8DAD16001289C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6502B772C8DAD16001289C8 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6502B462C8DA0E2001289C8 /* BlueMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6502B6C2C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMac" */;
+			buildPhases = (
+				A6502B432C8DA0E2001289C8 /* Sources */,
+				A6502B442C8DA0E2001289C8 /* Frameworks */,
+				A6502B452C8DA0E2001289C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueMac;
+			productName = BlueMac;
+			productReference = A6502B472C8DA0E2001289C8 /* BlueMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6502B572C8DA0E5001289C8 /* BlueMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6502B6F2C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMacTests" */;
+			buildPhases = (
+				A6502B542C8DA0E5001289C8 /* Sources */,
+				A6502B552C8DA0E5001289C8 /* Frameworks */,
+				A6502B562C8DA0E5001289C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6502B5A2C8DA0E5001289C8 /* PBXTargetDependency */,
+			);
+			name = BlueMacTests;
+			productName = BlueMacTests;
+			productReference = A6502B582C8DA0E5001289C8 /* BlueMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6502B612C8DA0E5001289C8 /* BlueMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6502B722C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMacUITests" */;
+			buildPhases = (
+				A6502B5E2C8DA0E5001289C8 /* Sources */,
+				A6502B5F2C8DA0E5001289C8 /* Frameworks */,
+				A6502B602C8DA0E5001289C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6502B642C8DA0E5001289C8 /* PBXTargetDependency */,
+			);
+			name = BlueMacUITests;
+			productName = BlueMacUITests;
+			productReference = A6502B622C8DA0E5001289C8 /* BlueMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6502B3F2C8DA0E2001289C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A6502B462C8DA0E2001289C8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A6502B572C8DA0E5001289C8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6502B462C8DA0E2001289C8;
+					};
+					A6502B612C8DA0E5001289C8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6502B462C8DA0E2001289C8;
+					};
+				};
+			};
+			buildConfigurationList = A6502B422C8DA0E2001289C8 /* Build configuration list for PBXProject "BlueMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6502B3E2C8DA0E2001289C8;
+			productRefGroup = A6502B482C8DA0E2001289C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6502B462C8DA0E2001289C8 /* BlueMac */,
+				A6502B572C8DA0E5001289C8 /* BlueMacTests */,
+				A6502B612C8DA0E5001289C8 /* BlueMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6502B452C8DA0E2001289C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6502B522C8DA0E4001289C8 /* Preview Assets.xcassets in Resources */,
+				A6502B4F2C8DA0E4001289C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B562C8DA0E5001289C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B602C8DA0E5001289C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6502B432C8DA0E2001289C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6502B4D2C8DA0E2001289C8 /* ContentView.swift in Sources */,
+				A6502B4B2C8DA0E2001289C8 /* BlueMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B542C8DA0E5001289C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6502B5D2C8DA0E5001289C8 /* BlueMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6502B5E2C8DA0E5001289C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6502B692C8DA0E5001289C8 /* BlueMacUITestsLaunchTests.swift in Sources */,
+				A6502B672C8DA0E5001289C8 /* BlueMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6502B5A2C8DA0E5001289C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6502B462C8DA0E2001289C8 /* BlueMac */;
+			targetProxy = A6502B592C8DA0E5001289C8 /* PBXContainerItemProxy */;
+		};
+		A6502B642C8DA0E5001289C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6502B462C8DA0E2001289C8 /* BlueMac */;
+			targetProxy = A6502B632C8DA0E5001289C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6502B6A2C8DA0E5001289C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6502B6B2C8DA0E5001289C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A6502B6D2C8DA0E5001289C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlueMac/BlueMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueMac/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6502B6E2C8DA0E5001289C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlueMac/BlueMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlueMac/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueMac/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A6502B702C8DA0E5001289C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueMac";
+			};
+			name = Debug;
+		};
+		A6502B712C8DA0E5001289C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlueMac";
+			};
+			name = Release;
+		};
+		A6502B732C8DA0E5001289C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlueMac;
+			};
+			name = Debug;
+		};
+		A6502B742C8DA0E5001289C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.axiom.app.Koinbx.BlueMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlueMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6502B422C8DA0E2001289C8 /* Build configuration list for PBXProject "BlueMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6502B6A2C8DA0E5001289C8 /* Debug */,
+				A6502B6B2C8DA0E5001289C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6502B6C2C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6502B6D2C8DA0E5001289C8 /* Debug */,
+				A6502B6E2C8DA0E5001289C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6502B6F2C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6502B702C8DA0E5001289C8 /* Debug */,
+				A6502B712C8DA0E5001289C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6502B722C8DA0E5001289C8 /* Build configuration list for PBXNativeTarget "BlueMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6502B732C8DA0E5001289C8 /* Debug */,
+				A6502B742C8DA0E5001289C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6502B3F2C8DA0E2001289C8 /* Project object */;
+}
